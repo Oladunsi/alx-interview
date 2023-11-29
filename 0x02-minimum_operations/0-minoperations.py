@@ -7,7 +7,6 @@ import sys
 
 def minOperations(n):
     """args n: amount of H occurences
-    
     Return: count of operations to crete H
     """
     if n <= 1:
