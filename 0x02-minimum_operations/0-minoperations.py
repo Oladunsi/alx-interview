@@ -1,12 +1,14 @@
 #!/usr/bin/python3
+"""Implementing minimum operations to determine the least amount
+of operations to create n numbers of H"""
 
 import sys
-"""Implementing minimum operations"""
 
 
 def minOperations(n):
-    """
-    args n: amount of H occurences
+    """args n: amount of H occurences
+    
+    Return: count of operations to crete H
     """
     if n <= 1:
         return 0
