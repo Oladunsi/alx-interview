@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-"""0-lockboxes
+"""0-lockboxes is a task that determines if N number of boxes and each
+   boxes contain keys to unlock other boxes 
 """
 
 def canUnlockAll(boxes):
-    """A .................
+    """This function determins if all the boxes can be opened with the keys
+    attached to the boxes
 
     Args:
         boxes (lists): collection of boxes 
