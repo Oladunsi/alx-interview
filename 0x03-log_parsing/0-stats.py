@@ -32,7 +32,7 @@ status_code = {
 try:
     for line in sys.stdin:
         parser = line.split()[::-1]  # reverse log info
-        if counter < 10 and len(parser) == 8:
+        if counter < 10 and len(parser) > 2:
             counter += 1  # incrementing the count
             file_size += int(parser[0])
             if parser[1] in status_code.keys():
